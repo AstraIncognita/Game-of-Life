@@ -31,7 +31,8 @@ int main()
         p *= iteration(k);
     }
     
-    //Вывод количества итераций
+    //Вывод вычисленного значения и количества итераций
+    printf("Calculated number is: %f\n", p);
     printf("Number of iterations: %d\n", k);
 
     //Успешное завершение программы
